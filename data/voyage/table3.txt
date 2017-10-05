@@ -1,0 +1,1 @@
+{"nom": "voiture", "data": [{"nomClm": "nbpass", "type": "integer", "values": ["6"]}, {"nomClm": "marque", "type": "string", "values": ["'ford'"]}, {"nomClm": "prix", "type": "integer", "values": ["4000000"]}]}

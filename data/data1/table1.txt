@@ -1,0 +1,1 @@
+{"nom": "personne", "data": [{"nomClm": "nom", "type": "string", "values": []}, {"nomClm": "prenom", "type": "string", "values": []}]}

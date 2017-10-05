@@ -1,0 +1,1 @@
+{"nom": "tab", "data": [{"nomClm": "colon1", "type": "integer", "values": []}, {"nomClm": "colon2", "type": "string", "values": []}, {"nomClm": "colon4", "type": "string", "values": []}]}

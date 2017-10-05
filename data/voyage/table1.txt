@@ -1,0 +1,1 @@
+{"nom": "agence", "data": [{"nomClm": "nom", "type": "string", "values": ["'safari'", "'sahara'"]}, {"nomClm": "ville", "type": "string", "values": ["'rabat'", "'casa'"]}, {"nomClm": "nbEmpl", "type": "integer", "values": ["15", "20"]}]}

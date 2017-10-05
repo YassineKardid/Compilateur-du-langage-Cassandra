@@ -1,0 +1,100 @@
+
+CREATE KEYSPACE voyage
+WITH replication = {'class': 'NetworkTopologyStrategy', 'DC1' : 1, 'DC2': 3}
+AND durable_writes = false;
+
+
+create table agence(
+nom string,
+ville string,
+nbEmpl int
+);
+
+insert into agence(nome,ville,nbEmpl) values('safari','rabat',15);
+
+insert into agence(nom,ville,nbEmpl) values('sahara','casa',20);
+
+
+select * from agence;
+
+select ville from agence where nom='safari';
+
+
+create table tab( colon1 int, colon2 string, colon3 int);
+
+alter table tab drop colon3;
+alter table tab add colon4 int;
+alter table tab alter colon4 type string;
+
+create table tab1( colon1 int, colon2 string, colon3 int);
+drop table tab1;
+
+truncate table agence;
+
+
+
+		_________________________________________________
+
+create table employee(
+id int,
+nom string,
+prenom string,
+salaire int
+);
+
+
+insert into employee(id,nom,prenom,salaire) values(1,'abbadi','hamza',40000);
+
+insert into employee(id,nom,prenom,salaire) values(2,'naciri','rachid',100000);
+
+select nom,salaire from employee where id=1; 
+
+
+
+
+
+                   /////////////////////////////////////////
+                   /////////////////////////////////////////
+
+CREATE KEYSPACE ecole
+           WITH replication = {'class': 'NetworkTopologyStrategy', 'DC1' : 1, 'DC2': 3}
+            AND durable_writes = false;
+
+
+create table etudient(
+id int,
+nom string,
+prenom string,
+ecole string
+);
+
+insert into etudient(id,nom,prenom,ecole) values(1,'kassoumi','nabil','ensias');
+
+                ___________________________________________
+   
+create table filliere(
+id int,
+nom string,
+nbEtudient int
+);
+
+insert into filliere(id,nom,nbEtudient) values(1,'isem',25);
+
+insert into filliere(id,nom,nbEtudient) values(2,'Gl',90);
+
+
+
+select nbEtudient from filliere where nom='isem';
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+create table voiture(
+nbpass int,
+marque string,
+prix int
+);
+insert into voiture(nbpass,marque,prix) values(6,'ford',4000000);
+//
+chmod -R 750 monRépertoire
+

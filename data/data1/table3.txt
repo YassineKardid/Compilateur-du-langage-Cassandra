@@ -1,0 +1,1 @@
+{"nom": "tab2", "data": [{"nomClm": "ville1", "type": "string", "values": ["'sefrou'"]}, {"nomClm": "ville2", "type": "string", "values": ["'rabat'"]}]}

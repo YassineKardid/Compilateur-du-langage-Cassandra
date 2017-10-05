@@ -1,0 +1,31 @@
+
+
+flex -i cassandra.l
+gcc -c lex.yy.c 
+gcc -c cassandra.c select.c insert.c error.c tabsymb.c table.c 
+
+gcc -o zzc lex.yy.o cassandra.o select.o insert.o error.o tabsymb.o table.o -lfl -ljansson
+./zzc 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

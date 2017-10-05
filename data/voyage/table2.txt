@@ -1,0 +1,1 @@
+{"nom": "employee", "data": [{"nomClm": "id", "type": "integer", "values": ["1", "2"]}, {"nomClm": "nom", "type": "string", "values": ["'abbadi'", "'naciri'"]}, {"nomClm": "prenom", "type": "string", "values": ["'hamza'", "'rachid'"]}, {"nomClm": "salaire", "type": "integer", "values": ["40000", "100000"]}]}
